@@ -17,7 +17,8 @@ root.title("Text-to-Speech")
 
 # Function to speak the entered text
 def on_button_click():
-    engine = pyttsx3.init()
+    engine = pyttsx3.init("sapi5")  # Use SAPI5 for Windows
+    engine.setProperty('rate', speed.get())  # Set the speech rate from the slider
     engine.say(entry.get())
     engine.runAndWait()
 
@@ -30,6 +31,12 @@ def save():
 # Entry field for the text to be spoken
 entry = ttk.Entry(root, width=50)
 entry.pack(pady=10)
+# Slider to adjust the speech rate
+speed = ttk.Scale(root, from_=50, to=300, orient='horizontal', length=300)
+speed.pack(pady=10)
+# Label for the slider
+speed_label = ttk.Label(root, text="Speech Rate (words per minute):")
+speed_label.pack(pady=5)
 
 # Button to speak the text
 say_button = ttk.Button(root, text="Say", command=on_button_click)
