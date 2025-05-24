@@ -4,7 +4,7 @@
 
 ## Features
 
-- Simple GUI using Flet
+- Simple GUI using tkinter
 - Offline text-to-speech with pyttsx3
 - Lightweight and easy to use
 
