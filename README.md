@@ -1,6 +1,6 @@
 # Textospeech 🗣️
 
-**Textospeech** is a basic text-to-speech desktop app built with **Flet** and **pyttsx3**. It allows users to enter text and hear it spoken out loud using offline speech synthesis or save it.
+**Textospeech** is a basic text-to-speech desktop app built with **tkinter** and **pyttsx3**. It allows users to enter text and hear it spoken out loud using offline speech synthesis or save it.
 
 ## Features
 
