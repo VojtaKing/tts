@@ -13,4 +13,4 @@
 Install the required packages:
 
 ```bash
-pip install flet pyttsx3
+pip install tkinter pyttsx3
