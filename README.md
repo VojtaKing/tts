@@ -5,7 +5,7 @@
 ## Features
 
 - Simple GUI using tkinter
-- Offline text-to-speech with pyttsx3
+- Offline text-to-speech with pyttsx3 
 - Lightweight and easy to use
 
 ## Installation
@@ -13,4 +13,4 @@
 Install the required packages:
 
 ```bash
-pip install tkinter pyttsx3
+pip install tkinter pyttsx3 sv_ttk
