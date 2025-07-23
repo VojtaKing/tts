@@ -13,4 +13,4 @@
 Install the required packages:
 
 ```bash
-pip install tkinter pyttsx3 sv_ttk
+pip install tkinter pyttsx3 sv-ttk
